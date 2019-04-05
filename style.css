@@ -1,0 +1,26 @@
+/* remove the body margin */
+body {
+    margin: 0;
+}
+
+/* center the simulator view */
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#simulator {
+    margin-top: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
