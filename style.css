@@ -24,3 +24,11 @@ th, td {
     border: 1px solid black;
     padding: 0.5rem;
 }
+
+#raw {
+    max-width: 20rem;
+}
+
+#raw pre {
+    white-space: pre-wrap;
+}
